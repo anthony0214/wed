@@ -59,8 +59,8 @@ background-position: center;
   border-bottom: 0px solid transparent;
   border-top: 307.6923076923px solid transparent;
   /* right envelope color */
-  border-right: 500px solid #5132ff; 
-  border-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png");
+  border-right: 500px solid #c0babd; 
+  /* border-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png"); */
   /* border-right: 500px solid url("../dist/image/image_2022_10_13T04_35_59_848Z.png"); */
   z-index: 1;
 }
@@ -69,19 +69,19 @@ background-position: center;
   left: 0;
   border-bottom: 0px solid transparent;
   border-top: 307.6923076923px solid transparent;
-    border-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png");
+    /* border-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png"); */
   /* left envelope color*/
-  border-left: 500px solid #ff1d99; 
+  border-left: 500px solid #d8d6eb; 
   z-index: 1;
 }
 
 .flap {
-  /* border-right: 250px solid transparent; */
+  border-right: 250px solid transparent;
   /* top envelope triangle color */
-  border-top: 153.8461538462px solid #00ef34; 
-    border-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png");
+  border-top: 153.8461538462px solid #e2dadd; 
+    /* border-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png"); */
     /* border-image-repeat: stretch; */
-  /* border-left: 250px solid transparent; */
+  border-left: 250px solid transparent;
   position: absolute;
   left: 0;
   top: 0;
@@ -132,6 +132,7 @@ width: 100%;
 .front {
   /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/39132/poke-bg.gif); */
 background-image: url("../dist/image/My Invitation.jpeg");
+background-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png");
 }
 .front h1 {
   position: relative;
