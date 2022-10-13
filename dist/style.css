@@ -1,6 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Karla|Slackey|Sriracha';
 body {
-  background: radial-gradient(ellipse at center, #7db9e8 0%, #005da6 100%);
+background-image: url("../dist/image/georgia-de-lotz--3xSBrSzTjg-unsplash.jpg");
+/* background-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png"); */
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background: radial-gradient(ellipse at center, #7de882 0%, #005da6 100%); */
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -29,7 +35,8 @@ body {
 }
 
 .envelope {
-  background: #ff3c41;
+/* inside envelope color */
+  background: #352e2f; 
   width: 100%;
   height: 307.6923076923px;
   position: relative;
@@ -47,10 +54,14 @@ body {
 }
 
 .envelope:before {
+
   right: 0;
   border-bottom: 0px solid transparent;
   border-top: 307.6923076923px solid transparent;
-  border-right: 500px solid #ff3237;
+  /* right envelope color */
+  border-right: 500px solid #5132ff; 
+  border-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png");
+  /* border-right: 500px solid url("../dist/image/image_2022_10_13T04_35_59_848Z.png"); */
   z-index: 1;
 }
 
@@ -58,14 +69,19 @@ body {
   left: 0;
   border-bottom: 0px solid transparent;
   border-top: 307.6923076923px solid transparent;
-  border-left: 500px solid #ff1d23;
+    border-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png");
+  /* left envelope color*/
+  border-left: 500px solid #ff1d99; 
   z-index: 1;
 }
 
 .flap {
-  border-right: 250px solid transparent;
-  border-top: 153.8461538462px solid #ef0006;
-  border-left: 250px solid transparent;
+  /* border-right: 250px solid transparent; */
+  /* top envelope triangle color */
+  border-top: 153.8461538462px solid #00ef34; 
+    border-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png");
+    /* border-image-repeat: stretch; */
+  /* border-left: 250px solid transparent; */
   position: absolute;
   left: 0;
   top: 0;
@@ -108,12 +124,14 @@ body {
   box-shadow: 0 3px 6x rgba(0, 0, 0, 0.3);
 }
 .face:last-of-type {
+width: 100%;
   transform: translateZ(-3px) rotateY(180deg);
-  background-size: 130% auto;
+  background-size: 100% auto;
 }
 
 .front {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/39132/poke-bg.gif);
+  /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/39132/poke-bg.gif); */
+background-image: url("../dist/image/My Invitation.jpeg");
 }
 .front h1 {
   position: relative;
@@ -142,7 +160,8 @@ body {
 }
 
 .face.back {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/39132/poke-bg.jpg);
+  /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/39132/poke-bg.jpg); */
+  background-image: url("../dist/image/invite.png");
   color: #000;
   overflow: hidden;
 }
