@@ -3,8 +3,8 @@ body {
 background-image: url("../dist/image/georgia-de-lotz--3xSBrSzTjg-unsplash.jpg");
 /* background-image: url("../dist/image/image_2022_10_13T04_35_59_848Z.png"); */
 background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 
   /* background: radial-gradient(ellipse at center, #7de882 0%, #005da6 100%); */
   -webkit-user-select: none;
