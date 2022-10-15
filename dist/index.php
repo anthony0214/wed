@@ -32,7 +32,7 @@
            $button_text = "to: ninong ".$_REQUEST['name'];
         }
   ?>
-  <button style="top: 7em;font-family: cursive;letter-spacing: -1px;position: absolute;font-size: 3.5em;"><?= $button_text; ?></button>
+  <button style="top: 7em;font-family: cursive;letter-spacing: -1px;position: absolute;font-size: 3em;"><?= $button_text; ?></button>
   <!-- <button>You're Invited!</button> -->
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
